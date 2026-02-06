@@ -21,6 +21,7 @@ export * from './helpers/apiRequestManager'
 export * from './helpers/pageLoader'
 export * from './helpers/memoryManager'
 export * from './helpers/imageOptimizer'
+export * from './helpers/errorHandler'
 
 // 导入常量
 export * from './constants/config'
