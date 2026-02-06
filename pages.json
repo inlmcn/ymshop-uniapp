@@ -1,0 +1,696 @@
+{
+  "pages": [
+    {
+      "path": "root/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "root/review/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "root/review/startup",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "root/review/friendAndOrder",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "root/review/friend",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "root/user/user",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "root/product/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    }
+  ],
+  "subPackages": [
+    // 1.0分包
+    {
+      "root": "pages",
+      "name": "pages",
+      "pages": [
+        {
+          "path": "share/index",
+          "style": {
+            "navigationBarTitleText": "分享"
+          }
+        },
+        {
+          "path": "orderList/orderList",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "orderList/confirmOrder",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "address/address",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "address/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "createAddress/createAddress",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/guid",
+          "style": {
+            "navigationBarTitleText": "登录",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/index",
+          "style": {
+            "navigationBarTitleText": "登录",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/login",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/user-agreement",
+          "style": {
+            "navigationBarTitleText": "用户协议",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/privacy-policy",
+          "style": {
+            "navigationBarTitleText": "隐私政策",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "search/search",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "goodsList/goodsList",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "shoppingCartJump/shoppingCart",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "submitOrder/submitOrder",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "submitOrder/shopSelect",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "selectStore/selectStore",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "newGoods/newGoods",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "groupBuy/groupBuy",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "seckilling/seckilling",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "discount/discount",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "integral/integral",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "integral/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "coupon/coupon",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "friendsPay/friendsPay",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "canvas/canvas",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "bargaining/bargaining",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "streaming/streaming",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "goodsDetail/goodsDetail",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "orderInfo/orderInfo",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "comment/comment",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "comment/list",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "footprint/footprint",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "collect/collect",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "selectRefundGood/selectRefundGood",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "refund/refund",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "refundList/refundList",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "refundInfo/refundInfo",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "userInfo/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "userInfo/userInfo",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "selectPlay/selectPlay",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "goodsReply/goodsReply",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "addLogistics/addLogistics",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "discountCoupon/index",
+          "style": {
+            "navigationBarTitleText": "优惠券",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "default",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "couponExchange/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "payStatus/index",
+          "style": {
+            "navigationBarTitleText": "支付状态"
+          }
+        },
+        {
+          "path": "webview/index",
+          "style": {
+            "navigationStyle": "default",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "webview/customerService",
+          "style": {
+            "navigationBarTitleText": "在线客服",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "faq/faq",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "guide/guide",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "product/detail",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "product/replenish",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "product/addproduct",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "products/index",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "products/videoDetail",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "payment/payment",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "payment/placeOrder",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "orderList/orderPay",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "webview/news",
+          "style": {
+            "navigationBarTitleText": "文章详情",
+			"navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "checkin/success",
+          "style": {
+            "navigationBarTitleText": "打卡成功",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "product-review/index",
+          "style": {
+            "navigationBarTitleText": "商品评价",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "product-review/index_many",
+          "style": {
+            "navigationBarTitleText": "商品评价",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "couponShare/index",
+          "style": {
+            "navigationBarTitleText": "优惠券分享",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "literature-search/index",
+          "style": {
+            "navigationBarTitleText": "文献查询",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "multiple-detection/index",
+          "style": {
+            "navigationBarTitleText": "多重检测"
+          }
+        },
+        {
+          "path": "testing-result/index",
+          "style": {
+            "navigationBarTitleText": "检测结果"
+          }
+        },
+		{
+			"path": "strict-rawmaterials/index",
+			"style": {
+				"navigationBarTitleText": "严选原料"
+			}
+		}
+      ]
+    },
+    // 活动
+    {
+      "root": "views/activity",
+      "name": "views/activity",
+      "pages": [
+        {
+          "path": "groupBy/index"
+        },
+        {
+          "path": "groupBy/detail"
+        },
+        {
+          "path": "afterVerification/index"
+        },
+        {
+          "path": "activityPage/activityPage",
+          "style": {
+            "navigationBarTitleText": "活动页面",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "activityPage/activityPageRule",
+          "style": {
+            "navigationBarTitleText": "活动规则说明"
+          }
+        }
+      ]
+    },
+    // 分销
+    {
+      "root": "views/distribution",
+      "name": "views/distribution",
+      "pages": [
+        {
+          "path": "center/index"
+        },
+        {
+          "path": "applyFor/index"
+        },
+        {
+          "path": "team/index"
+        },
+        {
+          "path": "commission/index"
+        },
+        {
+          "path": "order/index"
+        },
+        {
+          "path": "goods/index"
+        },
+        {
+          "path": "datum/index"
+        }
+      ]
+    },
+    // 会员
+    {
+      "root": "views/member",
+      "name": "views/member",
+      "pages": [
+        {
+          "path": "index/index"
+        }
+      ]
+    },
+    // 账户模块
+    {
+      "root": "views/account",
+      "name": "views/account",
+      "pages": [
+        {
+          "path": "signIn/index"
+        },
+        {
+          "path": "integral/index"
+        },
+        {
+          "path": "recharge/index"
+        },
+        {
+          "path": "withdraw/index"
+        },
+        {
+          "path": "balance/index"
+        }
+      ]
+    },
+    // 测评模块
+    {
+      "root": "views/evaluation",
+      "name": "views/evaluation",
+      "pages": [
+        {
+          "path": "startup/index",
+          "style": {
+            "navigationBarTitleText": "问卷信息"
+          }
+        },
+        {
+          "path": "questionnaire/index",
+          "style": {
+            "navigationBarTitleText": "营养测评"
+          }
+        },
+        {
+          "path": "questionnaire/detail",
+          "style": {
+            "navigationBarTitleText": "问卷信息"
+          }
+        },
+        {
+          "path": "healthPlan/index",
+          "style": {
+            "navigationBarTitleText": "健康方案"
+          }
+        },
+        {
+          "path": "startup/agreement",
+          "style": {
+            "navigationBarTitleText": "HealthCoast执掌时光隐私协议"
+          }
+        },
+        {
+          "path": "healthPlan/comments",
+          "style": {
+            "navigationBarTitleText": "健康方案评论"
+          }
+        },
+        {
+          "path": "questionnaire/qrcode",
+          "style": {
+            "navigationBarTitleText": "添加健康顾问"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": " ",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#282828",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "root/index/index",
+        "iconPath": "static/images/icon-home.png",
+        "selectedIconPath": "static/images/icon-home-hot.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "root/product/index",
+        "iconPath": "static/images/icon-class.png",
+        "selectedIconPath": "static/images/icon-class-hot.png",
+        "text": "产品"
+      },
+      {
+        "pagePath": "root/review/index",
+        "iconPath": "static/images/icon-cart.png",
+        "selectedIconPath": "static/images/icon-cart-hot.png",
+        "text": "评测"
+      },
+      {
+        "pagePath": "root/user/user",
+        "iconPath": "static/images/icon-user.png",
+        "selectedIconPath": "static/images/icon-user-hot.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}

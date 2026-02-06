@@ -1,0 +1,488 @@
+.page {
+  border: 1px solid transparent;
+  background: #fff;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 200rpx;
+}
+
+.activity-page-rule {
+  position: absolute;
+  top: 46rpx;
+  right: 0;
+  width: 82rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 90rpx 0rpx 0rpx 90rpx;
+
+  font-family: MiSans, MiSans;
+  font-weight: 600;
+  font-size: 20rpx;
+  color: #FFFFFF;
+}
+
+.poster {
+  width: 100%;
+
+  > img, > image {
+    width: 100%;
+  }
+}
+
+.page-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 9999;
+  width: 100%;
+  background: #ffffff;
+  height: 140rpx;
+
+  .page-footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28rpx 35rpx 0 31rpx;
+
+    .page-footer-section-left {
+      position: relative;
+
+      .badge {
+        position: absolute;
+        right: 0;
+        top: 0
+      }
+    }
+
+    .cart-total {
+      flex: auto;
+      padding-left: 24rpx;
+      padding-right: 24rpx;
+    }
+
+    .total-text {
+      font-family: MiSans, MiSans;
+      font-weight: 400;
+      font-size: 26rpx;
+    }
+
+    .unit {
+      font-family: MiSans, MiSans;
+      font-weight: 400;
+      font-size: 26rpx;
+      color: #FE4C4F;
+    }
+
+    .total-price {
+      font-family: MiSans, MiSans;
+      font-weight: 400;
+      font-size: 36rpx;
+      color: #FE4C4F;
+    }
+
+    .discount-price {
+      font-family: MiSans, MiSans;
+      font-weight: 600;
+      font-size: 20rpx;
+      color: #FE4C4F;
+      line-height: 40rpx;
+    }
+  }
+}
+
+.product-section {
+  min-height: calc(100vh - 88px);
+}
+
+.product-img {
+  border: 1rpx solid #e5e5e5;
+}
+
+.scroll-menus-wrap {
+  height: 80rpx;
+}
+
+.scroll-menus {
+  min-width: 100%;
+  display: flex;
+
+  .menu {
+    position: relative;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rpx;
+
+    .menu-text {
+      font-family: MiSans, MiSans;
+      font-weight: 600;
+      font-size: 30rpx;
+      text-align: center;
+      padding: 10rpx 0;
+    }
+
+    &.active {
+      .menu-text {
+        position: relative;
+
+        &:after {
+          position: absolute;
+          bottom: -10rpx;
+          left: 50%;
+          transform: translateX(-50%);
+          display: block;
+          content: ' ';
+          width: 80%;
+          height: 4px;
+          background: currentColor;
+          border-radius: 35rpx 35rpx 35rpx 35rpx;
+          transition: transform .2s;
+        }
+      }
+    }
+  }
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 22rpx 35rpx;
+
+  &.inner {
+    padding: 22rpx 25rpx 33rpx 0;
+  }
+
+  .product-image {
+    flex: 0 0 205rpx;
+    width: 205rpx;
+    height: 205rpx;
+
+    > image, > img {
+      width: 205rpx;
+      height: 205rpx;
+    }
+  }
+
+}
+
+.product-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 16rpx;
+}
+
+.product-content {
+  > view, > div {
+    margin-bottom: 12rpx;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.product-title {
+  .title {
+    font-family: MiSans, MiSans;
+    font-weight: 600;
+    font-size: 28rpx;
+    color: #000000;
+  }
+
+  .subtitle {
+    font-family: MiSans, MiSans;
+    font-weight: 600;
+    font-size: 24rpx;
+    color: #999;
+  }
+}
+
+.product-unit {
+  position: relative;
+
+  .product-unit-text {
+    padding: 7rpx 10rpx 7rpx 10rpx;
+    background: #F7F8F9;
+    border-radius: 6rpx 6rpx 6rpx 6rpx;
+
+    font-family: MiSans, MiSans;
+    font-weight: 400;
+    font-size: 20rpx;
+    color: #626262;
+    text-align: center;
+  }
+}
+
+.product-tags {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10rpx;
+  &.ellipsis{
+    &:after{
+      display: block;
+      content: '...';
+    }
+  }
+  .tag {
+    padding: 3rpx 12rpx;
+    font-family: MiSans, MiSans;
+    font-weight: 400;
+    font-size: 18rpx;
+    color: #6692FF;
+    border-radius: 6rpx 6rpx 6rpx 6rpx;
+    background-color: #E0E7FF;
+    margin-right: 12rpx;
+    // line-height: 1.1;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom:12rpx ;
+  }
+}
+
+.product-activity {
+  display: flex;
+  box-sizing: border-box;
+  .tag {
+    padding: 2rpx 10rpx;
+    border-radius: 8rpx 8rpx 8rpx 8rpx;
+    border: 1rpx solid #FE4C4F;
+
+    font-family: MiSans, MiSans;
+    font-weight: 400;
+    font-size: 20rpx;
+    color: #FE4C4F;
+    margin-right: 8rpx;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+}
+
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .product-price {
+    display: flex;
+    align-items: baseline;
+
+    .price {
+      font-family: MiSans, MiSans;
+      font-weight: 500;
+      font-size: 30rpx;
+      color: #FE4C4F;
+      padding-right: 12rpx;
+      .unit{
+        font-size: 24rpx;
+      }
+    }
+
+
+    .oprice {
+      font-family: MiSans, MiSans;
+      font-weight: 400;
+      font-size: 20rpx;
+      color: #777777;
+      text-decoration: line-through;
+    }
+  }
+
+  .product-cart-num-wrap {
+    display: flex;
+    align-items: center;
+
+    .reduce-cart, .add-cart {
+      display: flex;
+      align-items: center;
+    }
+
+    .product-cart-num {
+      width: 60rpx;
+      text-align: center;
+      line-height: 1.1;
+    }
+  }
+}
+
+.icon-cart {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.btn-submit {
+  width: 240rpx;
+  height: 69rpx;
+  line-height: 69rpx;
+  background: #00CBCC;
+  box-shadow: 0rpx 8rpx 24rpx 0rpx rgba(103, 61, 17, 0.08);
+  border-radius: 64rpx 64rpx 64rpx 64rpx;
+
+  font-family: MiSans, MiSans;
+  font-weight: 500;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  text-align: center;
+  font-style: normal;
+  text-transform: none;
+
+  &.disable {
+    opacity: 0.6;
+    background: rgba(0, 203, 204, 0.8);
+  }
+}
+
+.add-cart {
+}
+
+.icon-add-cart {
+  width: 38rpx;
+  height: 38rpx;
+}
+
+.icon-reduce-cart {
+  width: 38rpx;
+  height: 38rpx;
+}
+
+.shopping-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #fff;
+  border-radius: 18rpx 18rpx 18rpx 18rpx;
+  margin-bottom: 32rpx;
+  // padding: 22rpx 0 33rpx 0;
+  .shopping-item-checkbox {
+    display: flex;
+    align-items: center;
+    padding-left: 13rpx;
+  }
+}
+
+::v-deep .popup_inner {
+  margin-bottom: 190rpx;
+  padding: 0 22rpx !important;
+}
+
+.good {
+  flex: 1
+}
+
+.cart-num {
+  font-size: 24rpx;
+
+  .input {
+    width: 50rpx;
+
+
+    input {
+      width: 100%;
+      text-align: center;
+      color: #333;
+      border-left: 1rpx solid #B9B9B9;
+      border-right: 1rpx solid #B9B9B9;
+    }
+  }
+
+  .button {
+    font-size: 32rpx;
+    width: 45rpx;
+    aspect-ratio: 1/1;
+    border-radius: 5rpx;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+
+    &:active {
+      scale: 1.2;
+    }
+  }
+
+  &.border {
+    border-radius: 6rpx 6rpx 6rpx 6rpx;
+    border: 1rpx solid #B9B9B9;
+  }
+}
+
+
+.shopping-checkbox {
+  width: 100%;
+}
+
+.scroll-view {
+  max-height: 800rpx;
+}
+
+.price-row {
+  .price-box {
+    font-family: MiSans, MiSans;
+    font-weight: 500;
+    font-size: 27rpx;
+    color: #FE4C4F;
+
+    .old-price {
+      font-family: MiSans, MiSans;
+      font-weight: 400;
+      font-size: 20rpx;
+      color: #777777;
+      text-decoration-line: line-through;
+    }
+  }
+}
+
+.circle-wrap {
+  position: fixed;
+  width: 32rpx;
+  height: 32rpx;
+  background: #FE4C4F;
+  border-radius: 100%;
+  left: 30px;
+  top: 100px;
+  transition: transform 1s linear;
+  transform: translateX(-100px);
+
+  .circle {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    transform: translateY(50px);
+  }
+}
+
+.fly-container {
+  pointer-events: none;
+}
+
+.fly-item {
+  position: fixed;
+  z-index: 99999;
+  width: 32rpx;
+  height: 32rpx;
+  transition: transform 0.5s linear;
+
+  .fly-item-inner {
+    background: #FE4C4F;
+    border-radius: 100%;
+    transition: transform 0.5s cubic-bezier(0.54, -0.49, 1, 0.61);
+    width: 32rpx;
+    height: 32rpx;
+
+  }
+}
+
+.popup-title {
+  font-family: MiSans, MiSans;
+  font-weight: 500;
+  font-size: 32rpx;
+  color: #222222;
+  padding-left: 20rpx;
+}

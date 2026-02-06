@@ -1,0 +1,231 @@
+.sign-in {
+  width: 100%;
+  position: relative;
+
+  .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 750rpx;
+    height: 464rpx;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  &__inner {
+    position: relative;
+    @include usePadding(34, 0);
+
+    .bg-mask {
+      width: 100%;
+      height: 464rpx;
+      position: relative;
+
+    }
+
+    .header-row {
+      position: absolute;
+      top: 38rpx;
+      color: #fff;
+      font-size: 90rpx;
+      font-weight: bold;
+      align-items: baseline;
+
+      .sub {
+        font-weight: normal;
+        font-size: 32rpx;
+        margin-left: 12rpx;
+      }
+    }
+
+    .sign-btn-row {
+      position: absolute;
+      top: 180rpx;
+      @include useFlex(flex-start, center);
+      @include usePadding(30, 0);
+
+
+      .title {
+        font-weight: 600;
+        font-size: 32rpx;
+      }
+
+      .btn {
+        @include usePadding(14, 10);
+        background: $white-color;
+        color: $primary-color;
+        font-size: 28rpx;
+        border-radius: 8rpx;
+        margin-left: 15rpx;
+      }
+    }
+
+    .sign-calendar {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      @include usePadding(34, 28);
+
+      &__inner {
+        width: 100%;
+        display: grid;
+        overflow-x: scroll;
+        grid-template-columns:  repeat(7, 1fr);
+        column-gap: 16rpx;
+
+        .item {
+          .item-inner {
+            border-radius: 15rpx;
+            font-size: 22rpx;
+            color: #333;
+            white-space: nowrap;
+            background: #FFF0AF;
+
+            .item-box {
+              @include usePadding(12, 17);
+              width: 100%;
+              border-radius: 10rpx;
+              font-weight: bold;
+
+              image {
+                width: 40rpx;
+                height: 40rpx;
+                margin-top: 5rpx;
+              }
+            }
+
+            &.disable-bg {
+              background: #FFFBE9;
+              color: #999999;
+            }
+          }
+
+          .date {
+            font-size: 24rpx;
+            white-space: nowrap;
+            text-align: center;
+            color: #333333;
+            margin-top: 12rpx;
+
+            &.disable-date {
+              color: #999999;
+            }
+          }
+        }
+      }
+    }
+
+    .sign-card {
+      width: 100%;
+      background: #fff;
+      border-radius: 30rpx;
+      margin-top: 15rpx;
+      @include usePadding(32, 32);
+
+      .title {
+        font-size: 32rpx;
+        font-weight: bold;
+      }
+
+      .row {
+        margin: 24rpx 0;
+
+        .row-icon {
+          width: 80rpx;
+          height: 80rpx;
+          margin-right: 20rpx;
+        }
+
+        .row-info {
+          flex-grow: 1;
+
+          .name {
+            font-size: 32rpx;
+            //font-weight: bold;
+          }
+
+          .sub {
+
+
+          }
+
+          .btn {
+            background: #f6f9f8;
+            border-radius: 15rpx;
+            width: 150rpx;
+            height: 64rpx;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            image {
+              width: 30rpx;
+              height: 30rpx;
+              margin-right: 15rpx;
+            }
+
+            .task-integral {
+              max-width: calc(100% - 30rpx - 15rpx);
+              overflow: hidden;
+              text-overflow: ellipsis;
+              color: #333;
+              text-align: left;
+              font-size: 24rpx;
+
+              transform: translateX(-10%);
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.disable {
+  background: #FFFFFF !important;
+  color: #999999 !important;
+}
+
+
+.success-card {
+  width: 490rpx;
+  aspect-ratio: 490/558;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  .inner {
+    height: 100%;
+    @include useFlex(center, center, column);
+    color: #AF281D;
+    font-size: 28rpx;
+
+    .count-row {
+      padding-top: 130rpx;
+      font-size: 32rpx;
+      align-items: baseline;
+    }
+
+    .count {
+      font-size: 90rpx;
+      font-weight: bold;
+    }
+
+    .info {
+      margin-bottom: 30rpx;
+    }
+
+    .button {
+      @include usePadding(84, 21);
+      border-radius: 10rpx;
+      margin-bottom: 20rpx;
+    }
+
+    .tips {
+      color: #999;
+      font-size: 24rpx;
+    }
+  }
+}
+

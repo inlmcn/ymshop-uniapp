@@ -1,0 +1,92 @@
+/**
+* @name: index
+* @author: kahu4
+* @date: 2024-01-19 14:26
+* @description：index
+* @update: 2024-01-19 14:26
+* */
+
+.integral {
+  width: 100%;
+  @include usePadding(34, 34);
+
+  .num-card {
+    width: 100%;
+    border-radius: 15rpx;
+    aspect-ratio: 682/278;
+    background-size: 100% 100%;
+    @include usePadding(48, 76);
+    color: #663405;
+    font-size: 28rpx;
+
+    .num {
+      font-weight: bold;
+      font-size: 64rpx;
+    }
+  }
+
+  .tabs-row {
+    width: 100%;
+    gap: 16rpx;
+    margin: 34rpx 0;
+
+    .tab-item {
+      flex-grow: 1;
+      @include usePadding(0, 16);
+      background: #F6F8F8;
+      transition: all .3s;
+      border-radius: 8rpx;
+      text-align: center;
+
+      &.current {
+        background: #333333;
+        color: #fff;
+      }
+    }
+  }
+
+  .integral-list {
+    @include usePadding(32, 32);
+    width: 100%;
+    background: #fff;
+    border-radius: 15rpx;
+
+    .row {
+      margin: 25rpx 0;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .name {
+      color: #333333;
+      font-size: 28rpx;
+      font-weight: bold;
+    }
+
+    .time {
+      font-size: 24rpx;
+      color: #999999;
+    }
+
+    .right {
+      @include usePadding(38, 10);
+      border-radius: 10rpx;
+    }
+
+    .success {
+      color: #28C445;
+      background: rgba(40, 196, 69, 0.1);
+    }
+
+    .error {
+      color: #00CBCC;
+      background: #FFF7F5;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.primary-color {
+  color: $primary-color;
+}
+
+.animation-button, .primary-button {
+  &.disabled {
+    background: $tips-color;
+  }
+}
+
+.animation-button {
+  background: $primary-color;
+  color: $white-color;
+  transition: all .3s;
+
+  &:active {
+    scale: 1.1;
+  }
+}
+
+.primary-button {
+  background: $primary-color;
+  color: $white-color;
+}
+
+.h5-tabbar-height {
+  width: 100%;
+  height: var(--window-bottom); // docs https://zh.uniapp.dcloud.io/matter.html#h5-%E5%BC%80%E5%8F%91%E6%B3%A8%E6%84%8F
+}
+
+.tabbar-height {
+  height: 118rpx;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}

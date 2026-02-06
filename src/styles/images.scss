@@ -1,0 +1,14 @@
+$base-path: 'https://hnapi.booseng.com/';
+
+$addDelIcon: url('#{$base-path}/static/images/delete_icon.png'); // 删除按钮图标
+
+$orderStateClock: url('#{$base-path}/static/images/icon-order-info-5.png'); // 订单状态icon-时钟
+
+$orderStateMoney: url('#{$base-path}/static/images/icon-order-info-1.png'); // 订单状态icon-金额
+
+$orderStateReturn: url('#{$base-path}/static/images/icon-order-info-2.png'); // 订单状态icon-退货
+
+$orderStateFinish: url('#{$base-path}/static/images/icon-order-info-4.png'); // 订单状态icon-已完成
+
+$orderStateCoupon: url('#{$base-path}/static/background/coupon-bg.png'); // 优惠券背景
+

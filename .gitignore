@@ -1,0 +1,49 @@
+# 临时文件
+*.tmp
+*.temp
+*.log
+.DS_Store
+
+# node_modules
+node_modules/
+
+# 构建输出
+/dist/
+/build/
+/unpackage/
+/.nuxt/
+/.output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 环境变量
+.env*
+!.env.example
+
+# 日志
+logs/
+*.log
+
+# 本地配置
+*.local
+
+# 缓存
+.nyc_output/
+coverage/
+lib-cov/
+
+# 系统文件
+Thumbs.db
+ehthumbs.db
+
+# uni-app特定
+.hbuilderx/
+.common/
+.stream/
+.app/
+.web/
+.mp-weixin/
